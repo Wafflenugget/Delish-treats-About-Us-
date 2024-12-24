@@ -5,7 +5,7 @@ body {
     padding: 0;
     color: #333;
     background-color: #f7f7f7;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 header {
@@ -38,8 +38,34 @@ header nav a:hover {
     background: url('hero-background.jpg') no-repeat center center/cover;
     color: white;
     padding: 100px 20px;
-    font-size: 20px;
+    font-size: 22px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .news-article {
-    background: #
+    background: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-article h2 {
+    font-size: 28px;
+    color: #d35400;
+    margin-bottom: 10px;
+}
+
+.news-article .date {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #d35400;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
