@@ -19,12 +19,12 @@ section {
     padding: 20px;
 }
 
-.item {
+.treat-item {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
-    background-color: #fff; /* White background for items */
+    background-color: #fff; /* White background for treats */
 }
 
 footer {
