@@ -1,0 +1,45 @@
+/* styles.css */
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f7f7f7;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #d35400;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    text-align: center;
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+    font-size: 20px;
+}
+
+.news-article {
+    background: #
