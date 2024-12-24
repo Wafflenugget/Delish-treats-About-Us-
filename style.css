@@ -1,71 +1,44 @@
-/* styles.css */
 body {
-    font-family: 'Verdana', sans-serif;
+    background-color: #87CEEB; /* Sky blue background */
+    font-family: Arial, sans-serif;
+    color: #333;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #f7f7f7;
-    line-height: 1.8;
 }
 
 header {
-    background-color: #d35400;
-    color: white;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header .logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-header nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    font-weight: bold;
-}
-
-header nav a:hover {
-    text-decoration: underline;
-}
-
-#hero {
     text-align: center;
-    background: url('hero-background.jpg') no-repeat center center/cover;
-    color: white;
-    padding: 100px 20px;
-    font-size: 22px;
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
 }
 
-.news-article {
-    background: #fff;
-    margin: 20px auto;
-    max-width: 800px;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+h1 {
+    font-size: 2.5em;
 }
 
-.news-article h2 {
-    font-size: 28px;
-    color: #d35400;
-    margin-bottom: 10px;
+section {
+    padding: 20px;
 }
 
-.news-article .date {
-    color: #888;
-    font-size: 14px;
-    margin-bottom: 15px;
+.item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff; /* White background for items */
 }
 
 footer {
-    background-color: #d35400;
+    background-color: #004080; /* Darker blue for the footer */
     color: white;
     text-align: center;
-    padding: 15px 0;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.copyright {
+    background-color: #0073e6; /* Blue box for copyright */
+    padding: 10px 0;
+    margin-top: 20px;
 }
